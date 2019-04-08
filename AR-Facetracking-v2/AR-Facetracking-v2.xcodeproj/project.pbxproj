@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F1CB12D225B4E30005645DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1CB12C225B4E30005645DB /* AppDelegate.swift */; };
+		0F1CB12F225B4E30005645DB /* EmojiBlingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1CB12E225B4E30005645DB /* EmojiBlingViewController.swift */; };
+		0F1CB132225B4E30005645DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F1CB130225B4E30005645DB /* Main.storyboard */; };
+		0F1CB134225B4E30005645DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F1CB133225B4E30005645DB /* Assets.xcassets */; };
+		0F1CB137225B4E30005645DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F1CB135225B4E30005645DB /* LaunchScreen.storyboard */; };
+		0F1CB141225B4F89005645DB /* EmojiNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1CB13F225B4F89005645DB /* EmojiNode.swift */; };
+		0F1CB142225B4F89005645DB /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1CB140225B4F89005645DB /* StringExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F1CB129225B4E30005645DB /* AR-Facetracking-v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR-Facetracking-v2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F1CB12C225B4E30005645DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0F1CB12E225B4E30005645DB /* EmojiBlingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiBlingViewController.swift; sourceTree = "<group>"; };
+		0F1CB131225B4E30005645DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F1CB133225B4E30005645DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F1CB136225B4E30005645DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F1CB138225B4E30005645DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F1CB13F225B4F89005645DB /* EmojiNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiNode.swift; sourceTree = "<group>"; };
+		0F1CB140225B4F89005645DB /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F1CB126225B4E30005645DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F1CB120225B4E30005645DB = {
+			isa = PBXGroup;
+			children = (
+				0F1CB12B225B4E30005645DB /* AR-Facetracking-v2 */,
+				0F1CB12A225B4E30005645DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F1CB12A225B4E30005645DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F1CB129225B4E30005645DB /* AR-Facetracking-v2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F1CB12B225B4E30005645DB /* AR-Facetracking-v2 */ = {
+			isa = PBXGroup;
+			children = (
+				0F1CB12C225B4E30005645DB /* AppDelegate.swift */,
+				0F1CB12E225B4E30005645DB /* EmojiBlingViewController.swift */,
+				0F1CB13E225B4F89005645DB /* SuperUsefulCode */,
+				0F1CB130225B4E30005645DB /* Main.storyboard */,
+				0F1CB133225B4E30005645DB /* Assets.xcassets */,
+				0F1CB135225B4E30005645DB /* LaunchScreen.storyboard */,
+				0F1CB138225B4E30005645DB /* Info.plist */,
+			);
+			path = "AR-Facetracking-v2";
+			sourceTree = "<group>";
+		};
+		0F1CB13E225B4F89005645DB /* SuperUsefulCode */ = {
+			isa = PBXGroup;
+			children = (
+				0F1CB13F225B4F89005645DB /* EmojiNode.swift */,
+				0F1CB140225B4F89005645DB /* StringExtension.swift */,
+			);
+			path = SuperUsefulCode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F1CB128225B4E30005645DB /* AR-Facetracking-v2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F1CB13B225B4E30005645DB /* Build configuration list for PBXNativeTarget "AR-Facetracking-v2" */;
+			buildPhases = (
+				0F1CB125225B4E30005645DB /* Sources */,
+				0F1CB126225B4E30005645DB /* Frameworks */,
+				0F1CB127225B4E30005645DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AR-Facetracking-v2";
+			productName = "AR-Facetracking-v2";
+			productReference = 0F1CB129225B4E30005645DB /* AR-Facetracking-v2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F1CB121225B4E30005645DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Toni Itkonen";
+				TargetAttributes = {
+					0F1CB128225B4E30005645DB = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 0F1CB124225B4E30005645DB /* Build configuration list for PBXProject "AR-Facetracking-v2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F1CB120225B4E30005645DB;
+			productRefGroup = 0F1CB12A225B4E30005645DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F1CB128225B4E30005645DB /* AR-Facetracking-v2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F1CB127225B4E30005645DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1CB137225B4E30005645DB /* LaunchScreen.storyboard in Resources */,
+				0F1CB134225B4E30005645DB /* Assets.xcassets in Resources */,
+				0F1CB132225B4E30005645DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F1CB125225B4E30005645DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1CB142225B4F89005645DB /* StringExtension.swift in Sources */,
+				0F1CB12F225B4E30005645DB /* EmojiBlingViewController.swift in Sources */,
+				0F1CB141225B4F89005645DB /* EmojiNode.swift in Sources */,
+				0F1CB12D225B4E30005645DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F1CB130225B4E30005645DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F1CB131225B4E30005645DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F1CB135225B4E30005645DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F1CB136225B4E30005645DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F1CB139225B4E30005645DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0F1CB13A225B4E30005645DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F1CB13C225B4E30005645DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88DAFJFCQA;
+				INFOPLIST_FILE = "AR-Facetracking-v2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kirijaki.AR-Facetracking-v2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F1CB13D225B4E30005645DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88DAFJFCQA;
+				INFOPLIST_FILE = "AR-Facetracking-v2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kirijaki.AR-Facetracking-v2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F1CB124225B4E30005645DB /* Build configuration list for PBXProject "AR-Facetracking-v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F1CB139225B4E30005645DB /* Debug */,
+				0F1CB13A225B4E30005645DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F1CB13B225B4E30005645DB /* Build configuration list for PBXNativeTarget "AR-Facetracking-v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F1CB13C225B4E30005645DB /* Debug */,
+				0F1CB13D225B4E30005645DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F1CB121225B4E30005645DB /* Project object */;
+}
